@@ -14,6 +14,14 @@ body {
 body > .main-content > footer {
   padding-top: 13px;
 }
+.absolute-vh-center {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
 .user-name {
   color: @body-bg;
 }
@@ -42,6 +50,42 @@ body > .main-content > footer {
   .steps-and-slider, .footer-content {
     background-color: #E3E4B9;
     margin: auto -15px;
+
+    .circle {
+      background-color: #9D472C;
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      position: relative;
+      background-image: url("../img/circle-mask.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      border: solid 5px rgba(82, 39, 20, .2);
+      box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.29);
+
+      background-clip: padding-box;
+      box-sizing: content-box;
+
+
+
+      .sub-circle {
+        background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2)  100%);
+        background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);
+        background-image: linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);
+
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.66);
+
+        img {
+
+        }
+      }
+    }
   }
   .bottom-aside {
 
@@ -68,7 +112,6 @@ body > .main-content > footer {
       content: ' ';
       display: block;
       position: absolute;
-      right: 0;
       top: -10px;
       width: 20px;
       height: 20px;
@@ -89,17 +132,17 @@ body > .main-content > footer {
 
   .arrows-l {
     &:after {
-      right: 0;
+      right: -2px;
       background-image: url("../img/arrows.png");
     }
-    &:before {right: 19px;}
+    &:before {right: 17px;}
   }
   .arrows-r {
     &:after {
-      left: 0;
+      left: -2px;
       background-image: url("../img/arrows-r.png");
     }
-    &:before {left: 19px;}
+    &:before {left: 17px;}
   }
 }
 

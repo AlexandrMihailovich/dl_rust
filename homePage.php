@@ -67,6 +67,14 @@
         <div class="featured-title center-block col-md-3">
             <div class="text-center">
                 <h4>Featured Title</h4>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
             </div>
         </div>
 
@@ -74,12 +82,6 @@
         <div class="col-md-16">
             <!-- begin Slider -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
 
                 <div class="container-fluid carousel-inner">
 
@@ -132,13 +134,6 @@
                     </article>
                 </div>
 
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
 
             </div>
             <!-- end Slider -->
@@ -168,8 +163,10 @@
 
                 <article class="col-md-4 text-center">
                     <header>
-                        <div class="circle">
-                            <img src="img/book.png" alt="...">
+                        <div class="circle center-block">
+                            <div class="sub-circle absolute-vh-center">
+                                <img src="img/book.png" alt="..." class="absolute-vh-center">
+                            </div>
                         </div>
                         <h2 class="text-uppercase">Research</h2>
                     </header>
@@ -187,8 +184,10 @@
 
                 <article class="col-md-4 text-center">
                     <header>
-                        <div class="circle">
-                            <img src="img/book.png" alt="...">
+                        <div class="circle center-block">
+                            <div class="sub-circle absolute-vh-center">
+                                <img src="img/cog.png" alt="..." class="absolute-vh-center">
+                            </div>
                         </div>
                         <h2 class="text-uppercase">Work</h2>
                     </header>
@@ -206,8 +205,10 @@
 
                 <article class="col-md-4 text-center">
                     <header>
-                        <div class="circle">
-                            <img src="img/book.png" alt="...">
+                        <div class="circle center-block">
+                            <div class="sub-circle absolute-vh-center">
+                                <img src="img/calendar_1%20copy.png" alt="..." class="absolute-vh-center">
+                            </div>
                         </div>
                         <h2 class="text-uppercase">Deliver</h2>
                     </header>
