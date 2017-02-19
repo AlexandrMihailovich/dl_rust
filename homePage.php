@@ -156,210 +156,225 @@
     </section>
 
 
+    <div class="bold-brown-line row"></div>
 
+    <div class="row light-arrowed-bg">
+        <div class="col-md-5 no-arrows"></div>
+        <div class="col-md-1 arrows arrows-l"></div>
+        <div class="col-md-4 no-arrows"></div>
+        <div class="col-md-1 arrows arrows-r"></div>
+        <div class="col-md-5 no-arrows"></div>
+    </div>
 
     <div class="steps-and-slider row">
 
         <div class="container-fluid">
 
             <div class="row">
+                <div class="col-md-1"></div>
 
-        <article class="col-md-5 text-center">
-            <header>
-                <div class="circle">
-                    <img src="img/book.png" alt="...">
-                </div>
-                <h2 class="text-uppercase">Research</h2>
-            </header>
-            <div class="content">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                <article class="col-md-4 text-center">
+                    <header>
+                        <div class="circle">
+                            <img src="img/book.png" alt="...">
+                        </div>
+                        <h2 class="text-uppercase">Research</h2>
+                    </header>
+                    <div class="content">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                    </div>
+                    <footer>
+                        <a href="#" class="btn btn-default"  role="button">Learn more</a>
+                    </footer>
+                </article>
+
+                <div class="col-md-1"></div>
+
+                <article class="col-md-4 text-center">
+                    <header>
+                        <div class="circle">
+                            <img src="img/book.png" alt="...">
+                        </div>
+                        <h2 class="text-uppercase">Work</h2>
+                    </header>
+                    <div class="content">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                    </div>
+                    <footer>
+                        <a href="#" class="btn btn-default"  role="button">Learn more</a>
+                    </footer>
+                </article>
+
+                <div class="col-md-1"></div>
+
+                <article class="col-md-4 text-center">
+                    <header>
+                        <div class="circle">
+                            <img src="img/book.png" alt="...">
+                        </div>
+                        <h2 class="text-uppercase">Deliver</h2>
+                    </header>
+                    <div class="content">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                    </div>
+                    <footer>
+                        <a href="#" class="btn btn-default"  role="button">Learn more</a>
+                    </footer>
+                </article>
+
+                <div class="col-md-1"></div>
+
             </div>
-            <footer>
-                <a href="#" class="btn btn-default"  role="button">Learn more</a>
-            </footer>
-        </article>
-
-        <article class="col-md-5 text-center">
-            <header>
-                <div class="circle">
-                    <img src="img/book.png" alt="...">
-                </div>
-                <h2 class="text-uppercase">Work</h2>
-            </header>
-            <div class="content">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
-            </div>
-            <footer>
-                <a href="#" class="btn btn-default"  role="button">Learn more</a>
-            </footer>
-        </article>
-
-        <article class="col-md-5 text-center">
-            <header>
-                <div class="circle">
-                    <img src="img/book.png" alt="...">
-                </div>
-                <h2 class="text-uppercase">Deliver</h2>
-            </header>
-            <div class="content">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
-            </div>
-            <footer>
-                <a href="#" class="btn btn-default"  role="button">Learn more</a>
-            </footer>
-        </article>
-
-    </div>
 
             <div class="row">
-        <div class="col-md-16">
-            <!-- begin Slider -->
-            <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                <div class="col-md-16">
+                    <!-- begin Slider -->
+                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
 
-                <!-- Indicators -->
-                <div class="carousel-indicators">
-                    <a href="#" data-target="#carousel-example" data-slide-to="0" class="active"> 1 </a>
-                    <a href="#" data-target="#carousel-example" data-slide-to="1"> 2 </a>
-                </div>
+                        <!-- Indicators -->
+                        <div class="carousel-indicators">
+                            <a href="#" data-target="#carousel-example" data-slide-to="0" class="active"> 1 </a>
+                            <a href="#" data-target="#carousel-example" data-slide-to="1"> 2 </a>
+                        </div>
 
-                <div class="container-fluid carousel-inner">
-                    <div class="row item active">
-                        <article class="col-md-5">
-                            <header><div class="media">
-                                    <div class="pull-left">
-                                        <img class="media-object" src="img/Cert.png" alt="...">
+                        <div class="container-fluid carousel-inner">
+                            <div class="row item active">
+                                <article class="col-md-5">
+                                    <header><div class="media">
+                                            <div class="pull-left">
+                                                <img class="media-object" src="img/Cert.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
+                                                <em>Krili havtret hyo gustripast</em>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="content">
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
                                     </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
-                                        <em>Krili havtret hyo gustripast</em>
+                                </article>
+                                <article class="col-md-5">
+                                    <header><div class="media">
+                                            <div class="pull-left">
+                                                <img class="media-object" src="img/Cert.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
+                                                <em>Krili havtret hyo gustripast</em>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="content">
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
                                     </div>
-                                </div>
-                            </header>
-                            <div class="content">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                                </article>
+                                <article class="col-md-5">
+                                    <header><div class="media">
+                                            <div class="pull-left">
+                                                <img class="media-object" src="img/Cert.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
+                                                <em>Krili havtret hyo gustripast</em>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="content">
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                                    </div>
+                                </article>
                             </div>
-                        </article>
-                        <article class="col-md-5">
-                            <header><div class="media">
-                                    <div class="pull-left">
-                                        <img class="media-object" src="img/Cert.png" alt="...">
+
+                            <div class="row item">
+                                <article class="col-md-5">
+                                    <header><div class="media">
+                                            <div class="pull-left">
+                                                <img class="media-object" src="img/Cert.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
+                                                <em>Krili havtret hyo gustripast</em>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="content">
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
                                     </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
-                                        <em>Krili havtret hyo gustripast</em>
+                                </article>
+                                <article class="col-md-5">
+                                    <header><div class="media">
+                                            <div class="pull-left">
+                                                <img class="media-object" src="img/Cert.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
+                                                <em>Krili havtret hyo gustripast</em>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="content">
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
                                     </div>
-                                </div>
-                            </header>
-                            <div class="content">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                                </article>
+                                <article class="col-md-5">
+                                    <header><div class="media">
+                                            <div class="pull-left">
+                                                <img class="media-object" src="img/Cert.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
+                                                <em>Krili havtret hyo gustripast</em>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="content">
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                                            classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
+                                    </div>
+                                </article>
                             </div>
-                        </article>
-                        <article class="col-md-5">
-                            <header><div class="media">
-                                    <div class="pull-left">
-                                        <img class="media-object" src="img/Cert.png" alt="...">
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
-                                        <em>Krili havtret hyo gustripast</em>
-                                    </div>
-                                </div>
-                            </header>
-                            <div class="content">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
-                            </div>
-                        </article>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+
                     </div>
-
-                    <div class="row item">
-                        <article class="col-md-5">
-                            <header><div class="media">
-                                    <div class="pull-left">
-                                        <img class="media-object" src="img/Cert.png" alt="...">
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
-                                        <em>Krili havtret hyo gustripast</em>
-                                    </div>
-                                </div>
-                            </header>
-                            <div class="content">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
-                            </div>
-                        </article>
-                        <article class="col-md-5">
-                            <header><div class="media">
-                                    <div class="pull-left">
-                                        <img class="media-object" src="img/Cert.png" alt="...">
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
-                                        <em>Krili havtret hyo gustripast</em>
-                                    </div>
-                                </div>
-                            </header>
-                            <div class="content">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
-                            </div>
-                        </article>
-                        <article class="col-md-5">
-                            <header><div class="media">
-                                    <div class="pull-left">
-                                        <img class="media-object" src="img/Cert.png" alt="...">
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Krili havtret hyo gustripast 1</h4>
-                                        <em>Krili havtret hyo gustripast</em>
-                                    </div>
-                                </div>
-                            </header>
-                            <div class="content">
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure</p>
-                            </div>
-                        </article>
-                    </div>
+                    <!-- end Slider -->
                 </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-
             </div>
-            <!-- end Slider -->
-        </div>
-    </div>
 
         </div>
 
     </div>
 
 
+    <div class="brown-line row"></div>
 
 
-
-    <aside class="row">
+    <aside class="bottom-aside row">
         <article class="col-md-7">
             <div class="box-image">
                 <img src="img/Layer-3-copy-2.png" alt="...">
@@ -406,7 +421,15 @@
 
 
     <footer>
-        
+
+        <div class="row light-arrowed-bg">
+            <div class="col-md-5 no-arrows"></div>
+            <div class="col-md-1 arrows arrows-l"></div>
+            <div class="col-md-4 no-arrows"></div>
+            <div class="col-md-1 arrows arrows-r"></div>
+            <div class="col-md-5 no-arrows"></div>
+        </div>
+
         <div class="row footer-content">
         <div class="col-md-5">
             <div class="title">

@@ -11,8 +11,20 @@ body {
   background-image: url("../img/bg-texture.png");
   background-size: cover;
 }
+body > .main-content > footer {
+  padding-top: 13px;
+}
 .user-name {
   color: @body-bg;
+}
+.brown-line {
+  height: 9px;
+  #gradient > .vertical(#B04F2E; #813520);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+}
+.bold-brown-line {
+  height: 29px;
+  #gradient > .vertical(#7F341F; #B3512F);
 }
 .main-content {
   background-color: #232729;
@@ -22,10 +34,59 @@ body {
     background-color: #E3E4B9;
     margin: auto -15px;
   }
+  .bottom-aside {
+
+  }
 }
 
 
+.light-arrowed-bg {
+  margin-top: -13px;
 
+  .no-arrows {
+    background-color: #E3E4B9;
+    height: 10px;
+  }
+  .arrows {
+    position: relative;
+    &:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: -10px;
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+    }
+    &:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 13px;
+      background-color: #E3E4B9;
+    }
+  }
+
+  .arrows-l {
+    &:after {
+      right: 0;
+      background-image: url("../img/arrows.png");
+    }
+    &:before {right: 19px;}
+  }
+  .arrows-r {
+    &:after {
+      left: 0;
+      background-image: url("../img/arrows-r.png");
+    }
+    &:before {left: 19px;}
+  }
+}
 
 // bootstrap
 .navbar-inverse {
