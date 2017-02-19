@@ -7,10 +7,48 @@
 
 
 body {
-  background-color: @colorBodyBG;
+  //background-color: @colorBodyBG;
   background-image: url("../img/bg-texture.png");
   background-size: cover;
 }
 .user-name {
   color: @color1;
+}
+.main-content {
+  background-color: #232729;
+  border-radius: 15px;
+
+  .steps-and-slider, .footer-content {
+    background-color: #E3E4B9;
+  }
+}
+
+
+
+
+// bootstrap
+.navbar-inverse {
+  #gradient > .vertical(#252A2C; #1D2224);
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
+
+
+.btn-default {
+  #gradient > .vertical(#AA4B2C; #8A3A23);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.46),
+  inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
+  font-style: italic;
+}
+body > header .navbar-inverse .btn-default {
+  color: #E3E4B9;
+  font-style: normal;
+}
+
+
+.form-control {
+  #gradient > .vertical(#181C1F, #232628);
+  box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.15);
+
 }
