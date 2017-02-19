@@ -55,14 +55,7 @@
 </header>
 
 
-<div class="featured-image">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-16">
-                <img src="img/featured-img.png" class="img-responsive center-block" alt="featered image">
-            </div>
-        </div>
-    </div>
+<div class="featured-image center-block">
 </div>
 
 
@@ -71,9 +64,9 @@
 
 
     <section class="featured row">
-        <div class="col-md-16">
+        <div class="featured-title center-block col-md-3">
             <div class="text-center">
-                <h2>Featured Title</h2>
+                <h4>Featured Title</h4>
             </div>
         </div>
 
