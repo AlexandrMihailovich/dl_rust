@@ -359,7 +359,7 @@
 
 
 
-    <div class="row">
+    <aside class="row">
         <article class="col-md-7">
             <div class="box-image">
                 <img src="img/Layer-3-copy-2.png" alt="...">
@@ -399,13 +399,15 @@
 
             </div>
         </article>
-    </div>
+    </aside>
 
 
 
-    
 
-    <div class="row footer-content">
+
+    <footer>
+        
+        <div class="row footer-content">
         <div class="col-md-5">
             <div class="title">
                 <h3>Flickr</h3>
@@ -467,7 +469,7 @@
     </div>
 
 
-    <div class="row">
+        <div class="row">
         <div class="col-md-8">
             <p class="text-left">Copyright 2011 | Nineteen Eighty-One</p>
         </div>
@@ -482,6 +484,8 @@
             </nav>
         </div>
     </div>
+
+    </footer>
 
 </div>
 
