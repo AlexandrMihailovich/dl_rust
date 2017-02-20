@@ -227,14 +227,16 @@
             </div>
 
             <div class="row section-slider">
-                <div class="col-md-16">
-
-                    <ul class="nav nav-tabs">
+                <div class="col-md-5"></div>
+                <div class="col-md-6">
+                    <ul class="nav nav-tabs nav-justified">
                         <li class="active"><a href="#home" data-toggle="tab">Latest Press</a></li>
                         <li><a href="#profile" data-toggle="tab">Testimonials</a></li>
                         <li><a href="#messages" data-toggle="tab">Blog Posts</a></li>
                     </ul>
-
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-16 tabs-col">
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div class="tab-pane active" id="home">
