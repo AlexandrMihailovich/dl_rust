@@ -46,44 +46,79 @@ body > .main-content > footer {
 .main-content {
   background-color: #232729;
   border-radius: 15px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.46),
+              inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
 
+  .featured {
+    .col-md-16 {
+      padding: 10px;
+    }
+    .carousel {
+      border-bottom: 1px solid @gray-dark;
+      padding: 15px 0;
+      margin-bottom: 50px;
+
+      line-height: 1.3;
+      h4 {margin-bottom: 0;}
+      em {font-size: 12px;}
+    }
+  }
   .steps-and-slider, .footer-content {
     background-color: #E3E4B9;
     margin: auto -15px;
 
-    .circle {
-      background-color: #9D472C;
-      width: 86px;
-      height: 86px;
-      border-radius: 50%;
-      position: relative;
-      background-image: url("../img/circle-mask.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center center;
-      border: solid 5px rgba(82, 39, 20, .2);
-      box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.29);
+    .steps {
+      margin-bottom: 50px;
 
-      background-clip: padding-box;
-      box-sizing: content-box;
+      article {
+        margin-top: -65px;
+      }
 
-
-
-      .sub-circle {
-        background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);
-        background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2)  100%);
-        background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);
-        background-image: linear-gradient( 90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);
-
-        width: 76px;
-        height: 76px;
+      .circle {
+        background-color: #9D472C;
+        width: 86px;
+        height: 86px;
         border-radius: 50%;
-        position: absolute;
-        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.66);
+        position: relative;
+        background-image: url("../img/circle-mask.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border: solid 5px rgba(82, 39, 20, .2);
+        box-shadow: inset 0 2px 0 0 rgba(0, 0, 0, 0.29);
 
-        img {
+        background-clip: padding-box;
+        box-sizing: content-box;
 
+        .sub-circle {
+          #gradient > .directional(rgba(0, 0, 0, 0.2) 0%; rgba(255, 255, 255, 0.2) 100%; 90deg);
+
+          width: 76px;
+          height: 76px;
+          border-radius: 50%;
+          position: absolute;
+          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.66);
         }
+      }
+    }
+
+    .section-slider {
+      .carousel-indicators {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        margin: auto;
+        padding: 0;
+        background-color: #232729;
+        width: auto;
+      }
+      .carousel {
+        background-color: #232729;
+        border-radius: 15px;
+        padding: 15px 0;
+        margin-bottom: 50px;
       }
     }
   }
@@ -93,8 +128,11 @@ body > .main-content > footer {
   .featured-title {
     float: none;
     background-color: #232729;
-    margin-top: -42px;
+    margin-top: -40px;
     padding: 1px;
+    .border-top-radius(10px);
+    box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.46),
+    inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
   }
 }
 
@@ -128,23 +166,38 @@ body > .main-content > footer {
       height: 13px;
       background-color: #E3E4B9;
     }
-  }
 
-  .arrows-l {
-    &:after {
-      right: -2px;
-      background-image: url("../img/arrows.png");
+    &.arrows-l {
+      &:after {
+        right: -2px;
+        background-image: url("../img/arrows.png");
+      }
+      &:before {right: 17px;}
     }
-    &:before {right: 17px;}
-  }
-  .arrows-r {
-    &:after {
-      left: -2px;
-      background-image: url("../img/arrows-r.png");
+    &.arrows-r {
+      &:after {
+        left: -2px;
+        background-image: url("../img/arrows-r.png");
+      }
+      &:before {left: 17px;}
     }
-    &:before {left: 17px;}
   }
 }
+
+.steps-ico {
+  background-image: url("../img/sprite.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 34px;
+  &.book {background-position: 1px -38px;}
+  &.cog {background-position: 0 0;}
+  &.calendar {background-position: -38px 0;}
+}
+
+
+
+
 
 // bootstrap
 .navbar-inverse {
@@ -171,4 +224,62 @@ body > header .navbar-inverse .btn-default {
   #gradient > .vertical(#181C1F, #232628);
   box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.15);
 
+}
+
+
+.carousel-control {
+
+  // Set gradients for backgrounds
+  &.left {
+    background-image: none;
+  }
+  &.right {
+    background-image: none;
+  }
+
+  // Hover/focus state
+  &:hover,
+  &:focus {
+  }
+/*
+  // Toggles
+  .icon-prev,
+  .icon-next,
+  .glyphicon-chevron-left,
+  .glyphicon-chevron-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 5;
+    display: inline-block;
+  }
+  .icon-prev,
+  .glyphicon-chevron-left {
+    left: 50%;
+    margin-left: -10px;
+  }
+  .icon-next,
+  .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: -10px;
+  }
+  .icon-prev,
+  .icon-next {
+    width:  20px;
+    height: 20px;
+    line-height: 1;
+    font-family: serif;
+  }
+
+
+  .icon-prev {
+    &:before {
+      content: '\2039';// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
+    }
+  }
+  .icon-next {
+    &:before {
+      content: '\203a';// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
+    }
+  }*/
 }
