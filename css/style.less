@@ -1,4 +1,5 @@
 @import "bootstrap/less/bootstrap.less";
+@import "../font-awesome/less/font-awesome.less";
 
 
 @color1: #994227;
@@ -42,6 +43,12 @@ body > .main-content > footer {
   background-size: cover;
   height: 410px;
   width: 720px;
+}
+.post-ico {
+  .fa-twitter {
+    font-size: 30px;
+    color: #E3E4B9;
+  }
 }
 .main-content {
   background-color: #232729;
@@ -117,7 +124,41 @@ body > .main-content > footer {
     }
   }
   .bottom-aside {
+    .right-dotet-border {
+      border-right: 1px solid @body-bg;
+      &:after {
+        content: @fa-var-dot-circle-o;//" ";
+        display: block;
+        font: 14px/0.8 FontAwesome;
+        position: absolute;
+        right: -7px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: 13px;
+        width: 13px;
+        background: #232729;
+        border-radius: 50%;
+        color: @body-bg;
+      }
+    }
+    article {
+      header {
+        .box-image {
+          float: right;
+        }
+      }
+    }
 
+    .twitter {
+      .form-control {
+        width: auto;
+        height: auto;
+      }
+      .pull-left {
+        margin-right: 10px;
+      }
+    }
   }
   .featured-title {
     float: none;
@@ -128,6 +169,7 @@ body > .main-content > footer {
     box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.46),
     inset 0px 1px 0px 0px rgba(255, 255, 255, 0.22);
   }
+
 }
 
 
