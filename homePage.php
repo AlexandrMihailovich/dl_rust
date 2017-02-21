@@ -16,6 +16,7 @@
 </head>
 <body>
 
+
 <header class="container">
     <nav class="navbar navbar-inverse" role="navigation">
         <div class="container-fluid">
@@ -861,12 +862,14 @@
 
 
     <aside class="bottom-aside row">
-        <article class="col-md-7">
-            <div class="box-image">
-                <img src="img/Layer-3-copy-2.png" alt="...">
-            </div>
+
+        <article class="col-md-7 right-dotet-border">
             <header>
+                <div class="box-image">
+                    <img src="img/Layer-3-copy-2.png" alt="...">
+                </div>
                 <h2>Pharetra Eget</h2>
+
             </header>
             <div class="content">
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
@@ -887,9 +890,11 @@
                     <button type="submit" class="btn btn-default">Sing-up</button>
                 </form>
 
-                <div class="media">
-                    <div class="pull-left text-center">
-                        <img class="media-object" src="img/Layer-3-copy-3.png" alt="...">
+                <div class="media twitter">
+                    <div class="pull-left text-center form-control">
+                        <div class="post-ico">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
                         <a href="#" class="btn btn-default btn-xs">follow</a>
                     </div>
                     <div class="media-body form-control">
@@ -921,17 +926,19 @@
             <div class="title">
                 <h3>Flickr</h3>
             </div>
-            <div class="content">
-                <ul class="list-inline">
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                    <li><img src="img/Layer-3-copy-2.png" alt="..."></li>
-                </ul>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                    <div class="col-md-4"><img src="img/Layer-6.png" alt="..."></div>
+                </div>
             </div>
         </div>
         <div class="col-md-4 text-center">
@@ -940,10 +947,10 @@
             </div>
             <div class="content">
                 <ul class="list-unstyled">
-                    <li>logo</li>
-                    <li>logo</li>
-                    <li>logo</li>
-                    <li>logo</li>
+                    <li><img src="img/New-Your-Times.png" alt="..."></li>
+                    <li><img src="img/Coca-Cola.png" alt="..."></li>
+                    <li><img src="img/Pixar.png" alt="..."></li>
+                    <li><img src="img/Ducati.png" alt="..."></li>
                 </ul>
             </div>
         </div>
