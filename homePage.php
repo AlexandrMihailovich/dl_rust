@@ -251,7 +251,8 @@
                                         <div class="col-md-2"></div>
 
                                         <article class="col-md-4">
-                                            <header><div class="media">
+                                            <header>
+                                                <div class="media">
                                                     <div class="pull-left">
                                                         <img class="media-object" src="img/Cert.png" alt="...">
                                                     </div>
